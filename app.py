@@ -8,7 +8,7 @@ PORT = 5000
 
 # Logger
 logging.basicConfig(level=logging.INFO)
-logging.info(f"Aplikacja uruchomiona {datetime.datetime.now()}, Autor: Jan Kowalski, Port: {PORT}")
+logging.info(f"Aplikacja uruchomiona {datetime.datetime.now()}, Autor: Emil Los, Port: {PORT}")
 
 # Predefiniowana lista
 cities = {
