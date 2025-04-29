@@ -1,6 +1,6 @@
 # Etap 1 - budowanie
 FROM python:3.12-slim as builder
-LABEL org.opencontainers.image.authors="Jan Kowalski"
+LABEL org.opencontainers.image.authors="Emil Los"
 
 WORKDIR /app
 COPY app.py .
